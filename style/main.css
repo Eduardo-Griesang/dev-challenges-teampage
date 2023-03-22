@@ -1,0 +1,143 @@
+.body{
+    color: black;
+}
+
+.initial{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+.title{
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 2.25em;
+    line-height: 1em;
+    font-style: bold;
+}
+
+.about{
+    width: 40%;
+}
+
+.about__title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.125em;
+    line-height: 1.6875em;
+    font-style: bold;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+
+.about__txt{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.125em;
+    line-height: 1.6875em;
+}
+
+.person-all{
+    display: flex;
+    margin-top: 2rem;
+    width: 30%;
+}
+
+.p769{
+    margin-top: 15%;
+}
+
+.people{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+img{
+    width: 20vw;
+    margin-bottom: 1em;
+}
+
+.per__txt{
+    font-family: 'PT Serif', serif;
+    font-weight: 500;
+    font-size: 0.75em;
+    line-height: 0.99375em;
+    writing-mode: vertical-rl;
+    margin-left: 0.5em;
+    text-transform: uppercase;
+}
+
+.caption{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.125em;
+    line-height: 1.6875em;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+
+.foot{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #828282;
+}
+
+.eu{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+@media screen and (max-width:768px) {
+    .initial{
+        flex-direction: column;
+        margin-left: 5%;
+        margin-bottom: 3rem;
+    }
+    .title{
+        margin-bottom: 2em;
+    }
+    .about{
+        width: 100%;
+    }
+    .people{
+        margin-left: 8%;
+        width: 90%;
+    }
+    .person-all{
+        width: 50%;
+    }
+    .p769{
+        margin-top: 2rem;
+    }
+    .p768{
+        margin-top: 25%;
+    }
+    .img{
+        width: 30vw;
+        margin-bottom: 0.2em;
+    }
+    .caption{
+        font-size: 0.875em;
+        line-height: 1.3125em;
+    }
+    .per__txt{
+        font-size: 0.625em;
+        margin-bottom: 0;
+    }
+    footer{
+        font-size: 0.9rem;
+    }
+}
